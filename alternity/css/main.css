@@ -1,0 +1,644 @@
+body {
+    margin-left: 60px;
+    margin-top: 40px;
+    cursor: default;
+    overflow-x: hidden;
+}
+
+.nav-container {
+    width: 1310px;
+    height: 70px;
+}
+
+#site-logo {
+    width: 50px;
+    height: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    cursor: none;
+}
+
+#britm {
+    padding-bottom: 5px;
+    color: black;
+    display: inline;
+    padding-left: 40px;
+    font-family: FuturaPTBook;
+    font-size: large;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.hamburger-container {
+    cursor: pointer;
+}
+
+hr.hb {
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 25px;
+    display: block;
+    position: absolute;
+    right: 100px;
+    top: 90px;
+}
+hr.hm {
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 15px;
+    display: block;
+    position: absolute;
+    right: 100px;
+    top: 80px;
+}
+hr.ht {
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 35px;
+    display: block;
+    position: absolute;
+    right: 100px;
+    top: 70px;
+}
+
+hr.line {
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 40px;
+    display: block;
+}
+
+#altered {
+    font-family: FuturaPTMedium;
+    color: #51BDBD;
+    display: block;
+    position: absolute;
+    right: 200px;
+    top: 90px;
+    cursor: pointer;
+}
+
+.himg {
+    filter: grayscale(100%);
+    height: 500px;
+    width: auto;
+    position: absolute;
+    right: 120px;
+    top: 150px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#htxt {
+    font-family: FuturaPTBook;
+    font-size: 3em;
+    padding-top: 190px;
+}
+
+.hdesc {
+    font-family: AvenirLight;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.alt {
+    display: inline;
+    color: #51BDBD;
+}
+
+  .upload {
+      padding-top: 30px;
+  }
+
+  #learnmore {
+      font-family: AvenirBook;
+      display: inline;
+      font-size: 0.7em;
+      position: absolute;
+      left: 280px;
+      top: 483px;
+  }
+
+  #whitecircle {
+      position: absolute;
+      top: 920px;
+      left: -400px;
+      max-width: 50%;
+      max-height: auto;
+      z-index: -2;
+  }
+
+  #title {
+      margin-top: 200px;
+      font-family: IBM3270;
+      font-size: 1.1em;
+  }
+
+  #teaminfo {
+      margin-top: 40px;
+      margin-left: 200px;
+  }
+
+  #teamdp {
+      filter: grayscale(100%);
+  }
+
+  #man2dp {
+      max-height: 254px;
+      width: auto;
+      filter: grayscale(100%);
+      position: absolute;
+      top: 775px;
+      left: 700px;
+      z-index: -2;
+  }
+
+  #man2info {
+      margin-left: 150px;
+      display: inline;
+  }
+
+  .nline {
+    border: 1px solid white;
+    border-radius: 2px;
+    width: 300px;
+    display: block;
+    box-shadow: 0px -3px 5px #d9d9d9;
+    position: absolute;
+    left: 240px;
+    top: 1023px;
+    z-index: -2;
+  }
+
+  #name {
+      font-family: AvenirBlack;
+      font-size: 1.2em;
+      margin-left: 204px;
+      margin-top: 20px;
+  }
+
+  #orgname {
+      color: #51BDBD;
+  }
+
+  #desc {
+      font-family: AvenirLight;
+      font-size: 0.9em;
+      margin-left: 204px;
+      position: absolute;
+      top: 1047px;
+  }
+
+  #desc2 {
+    font-family: AvenirLight;
+    font-size: 0.9em;
+    margin-left: 658px;
+    position: absolute;
+    top: 1047px;
+  }
+
+  #hirebtn {
+      font-family: AvenirBlack;
+      color: #51BDBD;
+      position: absolute;
+      top: 1170px;
+      left: 270px;
+      font-size: 0.8em;
+      cursor: pointer;
+  }
+  #hirebtn2 {
+    font-family: AvenirBlack;
+    color: #51BDBD;
+    position: absolute;
+    top: 1170px;
+    left: 723px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+
+  .meetourteam {
+      display: inline-block;
+  }
+
+
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+  #man3dp {
+      max-height: 254px;
+      max-width: auto;
+      margin-left: 990px;
+      display: inline;
+      position: absolute;
+      top: 775px;
+      filter: grayscale(100%);
+  }
+
+  #desc3 {
+    font-family: AvenirLight;
+    font-size: 0.9em;
+    margin-left: 1098px;
+    position: absolute;
+    top: 1047px;
+  }
+
+  #hirebtn3{
+    font-family: AvenirBlack;
+    color: #51BDBD;
+    position: absolute;
+    top: 1170px;
+    left: 1160px;
+    font-size: 0.8em;
+    cursor: pointer;
+  }
+
+  #pillbtn {
+    background-color: white;
+    font-family: AvenirMedium;
+    border: none;
+    color: #51BDBD;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: copy;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #f2f2f2;
+  }
+
+  #seemore {
+      height: 80px;
+      width: 80px;
+      background-color: white;
+      border-radius: 40px;
+      position: absolute;
+      top: 970px;
+      left: 80px;
+      border: none;
+      color: #51BDBD;
+      box-shadow:  18px 18px 36px #d9d9d9, -18px -18px 36px #ffffff;
+      font-family: AvenirLight;
+      cursor: pointer;
+  }
+
+  .whatweprov {
+      z-index: 0;
+      font-family: IBM3270;
+      margin-top: 200px;
+      font-size: 1.1em;
+  }
+
+  #pttl {
+      position: absolute;
+      margin-top: 140px;
+      margin-left: 180px;
+      font-family: FuturaPTMedium;
+      font-size: 3em;
+  }
+
+  #gtxt {
+      color: #51BDBD;
+  }
+
+  #pdesc {
+      position: absolute;
+      font-family: AvenirLight;
+      font-size: 0.8em;
+      margin-top: 280px;
+      margin-left: 180px;
+  }
+
+  #getalt {
+      position: absolute;
+      margin-top: 380px;
+      font-family: AvenirHeavy;
+      margin-left: 180px;
+      cursor: pointer;
+  }
+
+  #alttxt {
+      color: #51BDBD;
+  }
+
+  #graphimg {
+      max-height: 500px;
+      max-width: auto;
+      position: absolute;
+      margin-left: 610px;
+      margin-top: 20px;
+  }
+
+  #prcimg {
+      display: inline-block;
+  }
+
+  #hwdtxt {
+    font-family: IBM3270;
+    font-size: 1.1em;
+    margin-top: 580px;
+  }
+
+  #icon1 {
+      margin-left: 45px;
+      max-height: 100px;
+      max-width: auto;
+      color: #51BDBD;
+      margin-top: 100px;
+      align-self: center;
+  }
+
+  #icon2 {
+    margin-left: 25px;
+    max-height: 100px;
+    max-width: auto;
+    color: #51BDBD;
+    margin-top: 100px;
+    align-self: center;
+    }
+
+
+  #icn1 {
+      width: 200px;
+      margin-left: 150px;
+      float: left;
+  }
+
+  #icn2 {
+      position: absolute;
+      width: 200px;
+      margin-left: 550px;
+      float: center;
+  }
+
+  #icn3 {
+      position: absolute;
+      width: 200px;
+      margin-left: 950px;
+  }
+
+  #icn4 {
+      position: absolute;
+      margin-top: 270px;
+      left: 410px;
+      width: 200px;
+  }
+
+  #icn5 {
+      position: absolute;
+      margin-top: 270px;
+      width: 200px;
+      left: 800px;
+  }
+
+  #icdesc {
+      text-align: center;
+      font-family: AvenirBook;
+      size: 0.8em;
+  }
+
+  #histxt {
+      position: absolute;
+      margin-top: 30px;
+      margin-left: 57px;
+      font-family: IBM3270;
+      font-size: 1.2em;
+  }
+  .history {
+      width: 100%;
+      height: 400px;
+      background-color: #51BDBD;
+      position: absolute;
+      top: 2600px;
+      left: 0px;
+      color: white;
+  }
+
+  #hisdesc {
+      font-family: AvenirLight;
+      font-size: 1.2em;
+      position: absolute;
+      margin-top: 135px;
+      margin-left: 180px;
+  }
+
+  #kbtn {
+    background-color: #51BDBD;
+    font-family: AvenirMedium;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #45a1a1, -5px -5px 10px #5dd9d9;
+  }
+
+  #km {
+      position: absolute;
+      margin-top: 260px;
+      margin-left: 180px;
+  }
+
+  #logos {
+      margin-top: 100px;
+      margin-left: 900px;
+  }
+
+  #fnc {
+      max-width: 120px;
+      max-height: auto;
+      filter: brightness(0) invert(1);
+  }
+  #g2 {
+    max-width: 120px;
+    max-height: auto;
+    padding-left: 50px;
+  }
+  #gg {
+    max-width: 100px;
+    max-height: auto;
+    padding-left: 50px;
+  }
+
+  #nova {
+    max-width: 250px;
+    max-height: auto;
+    filter: brightness(0) invert(1);
+  }
+  #tsm {
+    max-width: 120px;
+    max-height: auto;
+    filter: brightness(0) invert(1);
+  }
+
+  #protext {
+      position: absolute;
+      margin-top: 60px;
+      font-family: IBM3270;
+      font-size: 1em;
+      left: 57px;
+  }
+
+  .progress {
+      position: absolute;
+      width: 100%;
+      height: 530px;
+      left: 0px;
+      background-color: #51BDBD;
+      margin-top: 772px;
+      color: white;
+  }
+
+  #numbers {
+      position: absolute;
+      left: 180px;
+      top: 160px;
+      height: 120px;
+  }
+
+  #socialico {
+    position: absolute;
+    left: 780px;
+    top: 170px;
+    height: 120px;
+}
+
+  #rect {
+      width: 80px;
+      height: 80px;
+      margin-left: 15px;
+      background-color: #51BDBD;
+      border-radius: 10px;
+      box-shadow:  18px 18px 36px #45a1a1, 
+             -18px -18px 36px #5dd9d9;
+      text-align: center;
+      font-family: FuturaPTMedium;
+      font-size: 4em;
+      display: inline-block;
+      justify-content: space-evenly;
+  }
+
+  #ntxt {
+      font-family: AvenirBook;
+      font-size: 1em;
+      margin-top: 270px;
+      margin-left: 200px;
+  }
+
+  #altxt {
+      filter: brightness(0) invert(1);
+      width: 250px;
+      height: auto;
+      margin-top: 50px;
+      margin-left: 200px;
+  }
+
+  #balt {
+      filter: hue-rotate(90deg) saturate(30%);
+      width: 10px;
+      height: auto;
+  }
+
+  #btxt {
+      font-family: FuturaPTMedium;
+      font-size: 0.9em;
+      text-transform: uppercase;
+      letter-spacing: 7px;
+      position: absolute;
+      margin-top: 20px;
+      margin-left: 200px;
+  }
+
+  #social {
+      font-family: FuturaPTMedium;
+      font-size: 2.5em;
+      position: absolute;
+      margin-top: 90px;
+      margin-left: 805px;
+  }
+
+  #brect {
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+    background-color: #51BDBD;
+    border-radius: 50px;
+    box-shadow:  18px 18px 36px #45a1a1, 
+           -18px -18px 36px #5dd9d9;
+    text-align: center;
+    font-family: FuturaPTMedium;
+    font-size: 4em;
+    justify-content: space-evenly;
+    display: inline-block;
+    align-items: center;
+    cursor: pointer;
+}
+
+#sico {
+    height: 35px;
+    width: auto;
+    filter: brightness(0) invert(1);
+    margin-bottom: 13px;
+}
+
+#syico {
+    height: auto;
+    width: 25px;
+    filter: brightness(0) invert(1);
+    margin-bottom: 23px;
+}
+
+#ftext {
+    font-family: AvenirBook;
+    font-size: 1.1em;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 830px;
+}
+
+#unitof {
+    text-transform: uppercase;
+    margin-top: 420px;
+    margin-left: 1200px;
+    position: absolute;
+    font-size: 0.5em;
+    font-family: AvenirLight;
+    letter-spacing: 12px;
+}
+
+#gtext {
+    font-family: AvenirHeavy;
+    cursor: pointer;
+}
+
+#copyright {
+    font-family: AvenirBook;
+    font-size: 0.9em;
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 830px;
+}
+
+#utext {
+    margin-left: 10px;
+}
+
+#gfull {
+    margin-top: 3px;
+    width: 150px;
+    height: auto;
+    filter: brightness(0) invert(1);
+}

@@ -1,0 +1,46 @@
+@font-face {
+    font-family: FuturaPTLight;
+    src: url(../fonts/FuturaPT-Light.woff) format("WOFF");
+    font-weight: 300;
+}
+@font-face {
+    font-family: FuturaPTBook;
+    src: url(../fonts/FuturaPT-Book.woff) format("WOFF");
+    font-weight: normal;
+}
+@font-face {
+    font-family: FuturaPTMedium;
+    src: url(../fonts/FuturaPT-Medium.woff) format("WOFF");
+    font-weight: bold;
+}
+@font-face {
+    font-family: IBM3270;
+    src: url(../fonts/font3270.woff) format("WOFF");
+    font-weight: normal;
+}
+@font-face {
+    font-family: AvenirLight;
+    src: url(../fonts/Avenir-Light.woff) format("WOFF");
+    font-weight: 300;
+}
+@font-face {
+    font-family: AvenirBlack;
+    src: url(../fonts/Avenir-Black.woff) format("WOFF");
+    font-weight: bold;
+}
+@font-face {
+    font-family: AvenirBook;
+    src: url(../fonts/Avenir-Book.woff) format("WOFF");
+    font-weight: normal;
+}
+@font-face {
+    font-family: AvenirMedium;
+    src: url(../fonts/Avenir-Medium.woff) format("WOFF");
+    font-weight: bold;
+}
+@font-face {
+    font-family: AvenirHeavy;
+    src: url(../fonts/Avenir-Heavy.woff) format("WOFF");
+    font-weight: bolder;
+}
+
